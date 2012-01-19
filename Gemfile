@@ -12,7 +12,7 @@ gem "sqlite3"
 gem "juggernaut"
 gem "thin"
 
-gem "omniauth"
+gem "devise"
 gem "carrierwave"
 
 group :development do
