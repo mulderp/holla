@@ -17,4 +17,12 @@ gem "carrierwave"
 
 group :development do
   gem "ruby-debug19", :require => "ruby-debug"
+  gem 'guard-spork'
+  gem 'guard-cucumber'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
